@@ -7,15 +7,24 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @StateObject private var cameraViewModel = CameraViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            CameraView(viewModel: cameraViewModel)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Spacer()
+                Text("Pose Detection")
+                    .font(.title)
+                    .padding()
+                    .background(Color.black.opacity(0.7))
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
         }
-        .padding()
     }
 }
 
