@@ -29,9 +29,12 @@ class MoveNetModel {
             try interpreter.invoke()
 
             let outputTensor = try interpreter.output(at: 0)
-            let outputData = outputTensor.data.toArray(type: Float32.self)
+            let outputData = outputTensor.data
+            let floatArray: [Float32] = outputData.withUnsafeBytes { (pointer: UnsafeRawBufferPointer) -> [Float32] in
+                return pointer.bindMemory(to: Float32.self).map { $0 }
+            }
 
-            return reshapePoseOutput(outputData)
+            return reshapePoseOutput(floatArray)
         } catch {
             print("MoveNet error: \(error)")
             return nil
