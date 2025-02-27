@@ -38,9 +38,24 @@ class CameraViewModel: NSObject, ObservableObject, AVCaptureVideoDataOutputSampl
             print("Error setting up camera: \(error)")
         }
     }
+    
+    // RE CHECK THIS
+    func checkSquatDepth(leftHip: CGPoint, leftKnee: CGPoint, leftAnkle: CGPoint) {
+        let kneeToHip = leftHip.y - leftKnee.y
+        let ankleToKnee = leftKnee.y - leftAnkle.y
+
+        if kneeToHip < ankleToKnee {
+            print("Squat too shallow! Lower your hips more.")
+        }
+    }
+
 
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        // This function receives real-time frames from the camera
-        // You will pass frames to your pose detection model here
+        guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
+
+        if let keypoints = moveNetModel.runPoseDetection(pixelBuffer: pixelBuffer) {
+            print("Keypoints: \(keypoints)")
+            // TODO: Analyze form based on keypoints
+        }
     }
 }

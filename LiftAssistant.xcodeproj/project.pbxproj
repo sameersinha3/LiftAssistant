@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		694C620413E8F57997216A37 /* Pods_LiftAssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5685CC0A2D0BDB57DC0FC3 /* Pods_LiftAssistantTests.framework */; };
+		7B3129988BD44E1602A4F7E4 /* Pods_LiftAssistant_LiftAssistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19A6A5FCBC8E1F881BC3080 /* Pods_LiftAssistant_LiftAssistantUITests.framework */; };
+		AF79F7E6D9E5675E0EB74AAC /* Pods_LiftAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F68B35CAC2EDCDC38ED619C /* Pods_LiftAssistant.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6BCF061F2D6E881A00C1B7DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		169205011CB875374184FEA8 /* Pods-LiftAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistantTests.debug.xcconfig"; path = "Target Support Files/Pods-LiftAssistantTests/Pods-LiftAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BCF7ED14BF1958364BD64CF /* Pods-LiftAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistant.release.xcconfig"; path = "Target Support Files/Pods-LiftAssistant/Pods-LiftAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		59EFC26CC5038598B8BF2E9F /* Pods-LiftAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistantTests.release.xcconfig"; path = "Target Support Files/Pods-LiftAssistantTests/Pods-LiftAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
 		6BCF060E2D6E881300C1B7DF /* LiftAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCF061E2D6E881A00C1B7DF /* LiftAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCF06282D6E881A00C1B7DF /* LiftAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68B35CAC2EDCDC38ED619C /* Pods_LiftAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CB3745DF7AA1DF9AC2B8D5 /* Pods-LiftAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistant.debug.xcconfig"; path = "Target Support Files/Pods-LiftAssistant/Pods-LiftAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		B19A6A5FCBC8E1F881BC3080 /* Pods_LiftAssistant_LiftAssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftAssistant_LiftAssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43CA0850CD2BD3FA0512DE0 /* Pods-LiftAssistant-LiftAssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistant-LiftAssistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-LiftAssistant-LiftAssistantUITests/Pods-LiftAssistant-LiftAssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5685CC0A2D0BDB57DC0FC3 /* Pods_LiftAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401B3D2C783E65F1DA8EB2D /* Pods-LiftAssistant-LiftAssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftAssistant-LiftAssistantUITests.release.xcconfig"; path = "Target Support Files/Pods-LiftAssistant-LiftAssistantUITests/Pods-LiftAssistant-LiftAssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF79F7E6D9E5675E0EB74AAC /* Pods_LiftAssistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694C620413E8F57997216A37 /* Pods_LiftAssistantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3129988BD44E1602A4F7E4 /* Pods_LiftAssistant_LiftAssistantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4AA0F054D1A17419311A82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F68B35CAC2EDCDC38ED619C /* Pods_LiftAssistant.framework */,
+				B19A6A5FCBC8E1F881BC3080 /* Pods_LiftAssistant_LiftAssistantUITests.framework */,
+				BF5685CC0A2D0BDB57DC0FC3 /* Pods_LiftAssistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4C3FEAE060B0489D4AC1C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB3745DF7AA1DF9AC2B8D5 /* Pods-LiftAssistant.debug.xcconfig */,
+				3BCF7ED14BF1958364BD64CF /* Pods-LiftAssistant.release.xcconfig */,
+				B43CA0850CD2BD3FA0512DE0 /* Pods-LiftAssistant-LiftAssistantUITests.debug.xcconfig */,
+				C401B3D2C783E65F1DA8EB2D /* Pods-LiftAssistant-LiftAssistantUITests.release.xcconfig */,
+				169205011CB875374184FEA8 /* Pods-LiftAssistantTests.debug.xcconfig */,
+				59EFC26CC5038598B8BF2E9F /* Pods-LiftAssistantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6BCF06052D6E881300C1B7DF = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +120,8 @@
 				6BCF06212D6E881A00C1B7DF /* LiftAssistantTests */,
 				6BCF062B2D6E881A00C1B7DF /* LiftAssistantUITests */,
 				6BCF060F2D6E881300C1B7DF /* Products */,
+				5A4C3FEAE060B0489D4AC1C2 /* Pods */,
+				1A4AA0F054D1A17419311A82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BCF06322D6E881A00C1B7DF /* Build configuration list for PBXNativeTarget "LiftAssistant" */;
 			buildPhases = (
+				DB45F578F0DFC2018C042805 /* [CP] Check Pods Manifest.lock */,
 				6BCF060A2D6E881300C1B7DF /* Sources */,
 				6BCF060B2D6E881300C1B7DF /* Frameworks */,
 				6BCF060C2D6E881300C1B7DF /* Resources */,
+				52C61DFDA6C492AB96309B94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				6BCF06102D6E881300C1B7DF /* LiftAssistant */,
 			);
 			name = LiftAssistant;
-			packageProductDependencies = (
-			);
 			productName = LiftAssistant;
 			productReference = 6BCF060E2D6E881300C1B7DF /* LiftAssistant.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BCF06352D6E881A00C1B7DF /* Build configuration list for PBXNativeTarget "LiftAssistantTests" */;
 			buildPhases = (
+				E896A0C37981C3D5557D3BBB /* [CP] Check Pods Manifest.lock */,
 				6BCF061A2D6E881A00C1B7DF /* Sources */,
 				6BCF061B2D6E881A00C1B7DF /* Frameworks */,
 				6BCF061C2D6E881A00C1B7DF /* Resources */,
@@ -134,8 +178,6 @@
 				6BCF06212D6E881A00C1B7DF /* LiftAssistantTests */,
 			);
 			name = LiftAssistantTests;
-			packageProductDependencies = (
-			);
 			productName = LiftAssistantTests;
 			productReference = 6BCF061E2D6E881A00C1B7DF /* LiftAssistantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BCF06382D6E881A00C1B7DF /* Build configuration list for PBXNativeTarget "LiftAssistantUITests" */;
 			buildPhases = (
+				256EA9CC3DE7DA38E24E4A51 /* [CP] Check Pods Manifest.lock */,
 				6BCF06242D6E881A00C1B7DF /* Sources */,
 				6BCF06252D6E881A00C1B7DF /* Frameworks */,
 				6BCF06262D6E881A00C1B7DF /* Resources */,
+				F3E88508709766E37E0237B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				6BCF062B2D6E881A00C1B7DF /* LiftAssistantUITests */,
 			);
 			name = LiftAssistantUITests;
-			packageProductDependencies = (
-			);
 			productName = LiftAssistantUITests;
 			productReference = 6BCF06282D6E881A00C1B7DF /* LiftAssistantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +272,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256EA9CC3DE7DA38E24E4A51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiftAssistant-LiftAssistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C61DFDA6C492AB96309B94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant/Pods-LiftAssistant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant/Pods-LiftAssistant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant/Pods-LiftAssistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB45F578F0DFC2018C042805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiftAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E896A0C37981C3D5557D3BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiftAssistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E88508709766E37E0237B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant-LiftAssistantUITests/Pods-LiftAssistant-LiftAssistantUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant-LiftAssistantUITests/Pods-LiftAssistant-LiftAssistantUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiftAssistant-LiftAssistantUITests/Pods-LiftAssistant-LiftAssistantUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BCF060A2D6E881300C1B7DF /* Sources */ = {
@@ -390,6 +535,7 @@
 		};
 		6BCF06332D6E881A00C1B7DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CB3745DF7AA1DF9AC2B8D5 /* Pods-LiftAssistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +566,7 @@
 		};
 		6BCF06342D6E881A00C1B7DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCF7ED14BF1958364BD64CF /* Pods-LiftAssistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +597,7 @@
 		};
 		6BCF06362D6E881A00C1B7DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169205011CB875374184FEA8 /* Pods-LiftAssistantTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +617,7 @@
 		};
 		6BCF06372D6E881A00C1B7DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EFC26CC5038598B8BF2E9F /* Pods-LiftAssistantTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +637,7 @@
 		};
 		6BCF06392D6E881A00C1B7DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43CA0850CD2BD3FA0512DE0 /* Pods-LiftAssistant-LiftAssistantUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -505,6 +655,7 @@
 		};
 		6BCF063A2D6E881A00C1B7DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C401B3D2C783E65F1DA8EB2D /* Pods-LiftAssistant-LiftAssistantUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
